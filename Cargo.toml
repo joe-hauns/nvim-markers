@@ -1,0 +1,11 @@
+[package]
+name = "nvim-markers"
+version = "0.1.0"
+authors = ["Johannes Schoisswohl <johannes.sch@gmx.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# neovim-lib = "0.6"
+neovim-lib = {path = "/Users/jo/Programming/projects/github/neovim-lib"}
